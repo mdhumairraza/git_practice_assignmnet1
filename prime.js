@@ -1,16 +1,10 @@
-
-
 num =13
-
+flag=True
 count=0
-	for(i=1;i<=num;i++){
+	for(i=2;i<=num**0.5;i++){
 	
 		if( num%i === 0){
-			count++
+			flag=False
 		}
 	}
-if(  count ===2 ){
-	console.log(true);
-}	else{
-	console.log(false)
-	}
+console.log(flag)
