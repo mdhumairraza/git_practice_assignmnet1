@@ -1,5 +1,3 @@
-
-
 num =13
 flag=True
 count=0
@@ -9,4 +7,7 @@ count=0
 			flag=False
 		}
 	}
+
 console.log(flag)
+
+
